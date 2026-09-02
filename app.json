@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "SpotLab",
+    "slug": "spotlab",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/spotlab-app-icon.png",
+    "scheme": "spotlab",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gabrpimenta.spotlab",
+      "icon": "./assets/images/spotlab-app-icon.png"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#170A2A",
+        "foregroundImage": "./assets/images/spotlab-app-icon.png"
+      },
+      "predictiveBackGestureEnabled": true,
+      "package": "com.gabrpimenta.spotlab"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/spotlab-app-icon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/spotlab-app-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#170A2A",
+          "dark": {
+            "image": "./assets/images/spotlab-app-icon.png",
+            "backgroundColor": "#170A2A"
+          }
+        }
+      ],
+      "expo-image",
+      "expo-audio",
+      "expo-asset",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
