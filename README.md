@@ -6,6 +6,12 @@ SpotLab is a mobile poker decision trainer built with Expo and React Native. It 
 
 > The current practice engine uses deterministic strategy fixtures. Frequencies and EV values are educational product data, not solver-verified GTO advice.
 
+## Product tour
+
+[![SpotLab product tour showing the daily challenge, poker table, decision analysis, range explorer, missions, and league progression](docs/media/spotlab-product-tour.gif)](docs/media/spotlab-product-tour.mp4)
+
+Follow one complete training loop—from choosing a line through solver-style feedback and range exploration—then browse mission filters and league progression. [Open the full-quality recording](docs/media/spotlab-product-tour.mp4).
+
 ## Product
 
 SpotLab is organized around three destinations:
